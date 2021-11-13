@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+body {
+  background: #266d2641;
+  color: #000000;
+  font: bold 16px "Roboto", sans-serif;
+}
+.ava {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 15px black;
+  text-align: left;
+}
+._block p {
+  color: rgba(3, 3, 3, 0.438);
+  font-style: initial;
+  text-decoration: none;
+  text-transform: capitalize;
+  word-spacing: 3px;
+  display: flex;
+  margin-bottom: 5px;
+}
+._block-text {
+    margin-left:  40px;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-top: 30px;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 19px;
+}
+.bg-color-red {
+  background-color: #fff9dc;
+}
+.bg-color-yellow {
+  background-color: #e5ffe7;
+}
+.bg-color-green {
+  background-color: #ffe5e5;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    color:rgba(31, 7, 7, 0.877);
+}
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: rgba(78, 45, 44, 0.897);
+    margin-bottom: 9px;
+} 
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: rgb(104, 104, 75);
+}
+.table td:nth-child(1) {
+    color: rgb(92, 77, 146);
+}
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+.link-list li {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ccc;
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: rgba(44, 28, 26, 0.842);
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgba(73, 66, 66, 0.438);
+    background: transparent;
+    color: rgb(0, 0, 0);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.inp {
+    font: serif;
+    border: none;
+    box-sizing: content-box;
+    border-radius: 2px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+.inp:hover {
+    opacity: 0.9;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 19px;
+}
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
